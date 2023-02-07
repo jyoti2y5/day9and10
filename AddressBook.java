@@ -34,6 +34,8 @@ public class AddressBook {
         System.out.println("Email :");
         person.email = sc.nextLine();
 
+        people.add(person);
+
 
     }
 }
